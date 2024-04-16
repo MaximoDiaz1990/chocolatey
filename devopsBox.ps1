@@ -7,3 +7,5 @@ choco install nodejs-lts  -y
 choco install java -y
 choco install visualstudiocode -y
 choco install git -y
+
+echo %JAVA_HOME%
