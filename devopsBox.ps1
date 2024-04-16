@@ -21,3 +21,5 @@ $newPath = [System.Environment]::GetEnvironmentVariable("Path", [System.Environm
 # Verify JAVA_HOME and PATH
 Write-Host "JAVA_HOME is set to: $javaInstallationDir"
 Write-Host "PATH is updated with Java bin directory"
+
+Get-ChildItem Env:
