@@ -4,7 +4,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.We
 #Install Software
 choco install office -y
 choco install nodejs-lts  -y
-choco install java -y
+choco install javaruntime -y
 choco install visualstudiocode -y
 choco install git -y
 
